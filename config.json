@@ -1,0 +1,21 @@
+{
+    "server": {
+        "port": 3000,
+        "host": "0.0.0.0",
+        "maxTrafficLogEntries": 50
+    },
+    "defender": {
+        "cloudUrl": "http://150.136.173.218:3000/alert",
+        "ports": {
+            "http": 80,
+            "ftp": 21,
+            "ssh": 2222,
+            "udp": 9999
+        }
+    },
+    "attacker": {
+        "targetIp": "192.168.1.71",
+        "delayBetweenAttacks": 1000,
+        "initialDelay": 500
+    }
+}
