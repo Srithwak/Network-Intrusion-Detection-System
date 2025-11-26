@@ -41,7 +41,7 @@ This project consists of three main components:
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+[git clone https://github.com/Srithwak/Network-Intrusion-Detection-System.git
 cd network_sniffer
 ```
 
